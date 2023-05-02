@@ -2,7 +2,7 @@ package exercicios;
 
 import java.util.Scanner;
 
-public class L2_ex08 {
+public class Fatorial {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -22,7 +22,7 @@ public class L2_ex08 {
 				}// end if
 				acumulador *= contador; //acumulador = acumulador * contador
 			}// end for
-			System.out.printf(" = %d.", acumulador); // por algum motivo funciona ate do 1 ao 16
+			System.out.printf(" = %d.", acumulador); // por algum motivo funciona do 1 ao 16
 		sc.close();
 		
 		}
