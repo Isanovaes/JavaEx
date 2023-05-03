@@ -22,7 +22,7 @@ public class Fatorial {
 				}// end if
 				acumulador *= contador; //acumulador = acumulador * contador
 			}// end for
-			System.out.printf(" = %d.", acumulador); //há limite de caracter devido ao tipo de dado (long)
+			System.out.printf(" = %d", acumulador); //há limite de caracter devido ao tipo de dado (long)
 		sc.close();
 		
 		}
