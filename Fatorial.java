@@ -6,7 +6,7 @@ public class Fatorial {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int acumulador = 1;
+		long acumulador = 1;
 		System.out.print("Digite um número e saiba seu fatorial:");
 		int a = sc.nextInt();
 		if (a < 0) {
@@ -22,7 +22,7 @@ public class Fatorial {
 				}// end if
 				acumulador *= contador; //acumulador = acumulador * contador
 			}// end for
-			System.out.printf(" = %d.", acumulador); // por algum motivo funciona do 1 ao 16
+			System.out.printf(" = %d.", acumulador); //há limite de caracter devido ao tipo de dado (long)
 		sc.close();
 		
 		}
