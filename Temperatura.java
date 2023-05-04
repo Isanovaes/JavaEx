@@ -1,4 +1,4 @@
-package NotSerious;
+package *;
 
 import java.util.Scanner;
 
