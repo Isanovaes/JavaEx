@@ -18,7 +18,7 @@ public class Fatorial {
 			for (int contador = a; contador != 0; contador--) {
 				System.out.printf("%d", contador);
 				if (contador != 1) {
-					System.out.printf("*"); //para ficar bonitinho na tela
+					System.out.print("*"); //para ficar bonitinho na tela
 				}// end if
 				acumulador *= contador; //acumulador = acumulador * contador
 			}// end for
